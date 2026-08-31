@@ -1,0 +1,19 @@
+{
+  "name": "Laravel 13 + Next.js",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "24"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "latest"
+    }
+  },
+  "forwardPorts": [
+    8000,
+    3000,
+    3306
+  ]
+}
